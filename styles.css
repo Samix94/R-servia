@@ -1,0 +1,65 @@
+/*GENERAL*/
+*{
+    margin: 8px;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+h2{
+    font-size: 20px;
+    color: black;
+}
+p{
+    color: gray;
+}
+ul{
+    list-style: none;
+}
+
+
+/*HEADER*/
+header{
+    height: 100px;
+
+}
+header h1{
+    float: left;
+    margin-top: 25px;
+}
+header nav{
+    float: right;
+    margin: 50px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/*STEPS*/
+article i{
+    font-size: 10px;
+    color: #0065FC;
+}
+.steps-1{
+    background-color: #F2F2F2;
+}
+.steps-3{
+    background-color: #F2F2F2;
+}
+
+/*FOOTER*/
+footer{
+    padding: 10px;
+    background-color: #F2F2F2;
+}
