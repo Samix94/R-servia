@@ -111,7 +111,129 @@ header a:hover{
     border-radius: 15px;
     cursor: pointer;
 }
+#research h2{
+    margin-top: 20px;
+}
+.search-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.filter{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.filter:hover{
+    transform: scale(1.2);
+}
+.filter:active{
+    transform: scale(1.2);   
+}
+.filter i{
+    padding: 15px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 50%;
+}
+.filter span{
+    padding: 13px 25px;
+    border-top: 3px solid #F2F2F2;
+    border-right: 3px solid #F2F2F2;
+    border-bottom: 3px solid #F2F2F2;
+    border-radius: 0 35px 35px 0;
+    position: relative;
+    right: 25px;
+}
+.search-3{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.search-3 i{
+    padding: 5px 12px;
+    margin-right: 10px;
+    color: #0065FC;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+}
+.search-3 p{
+    padding-top: 5px;
+}
+.search-3 span mark{
+    position: relative;
+    top: 2px;
+    right: 2px;
+    background-color: inherit;
+    font-style: italic;
+}
 
+/*HEBERGEMENTS*/
+#container{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#populary-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.title h2{
+    font-size: 1.2em;
+}
+.photo{
+    width: 335px;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+    border-radius: 25px;
+    box-shadow: -0.6em 0.6em 0.8em #d0e0ab;
+}
+.img-popularity{
+    width: 126px;
+    height: 135px;
+    overflow: hidden;
+    border-radius: 25px 0 0 25px;
+    flex: 0 0 auto;
+}
+.img-popularity img{
+    width: 126px;
+    height: 135px;
+    object-fit: cover;
+}
+.overlay{
+    margin: 0 15px;
+    padding: 10px 0;
+    height: 100%;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+#container-2{
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
 
 
 
