@@ -1,65 +1,243 @@
 /*GENERAL*/
 *{
-    margin: 8px;
+    margin: 0;
     padding: 0;
 }
 body{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-family: 'Raleway',sans-serif;
+    background-color: #fff;
+    margin: auto;
 }
-h1{
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-}
-h2{
-    font-size: 20px;
-    color: black;
-}
-p{
-    color: gray;
-}
-ul{
-    list-style: none;
+article{
+    padding: 20px 15px;
 }
 
-
-/*HEADER*/
+/*HEADER mobile first*/
 header{
-    height: 100px;
-
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
 }
-header h1{
-    float: left;
-    margin-top: 25px;
+header img{
+    width: 110px;
+    height: auto;
+    margin-left: 18px;
 }
-header nav{
-    float: right;
-    margin: 50px;
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
 }
 header nav ul li{
-    display: inline-block;
+    text-align: center;
+    flex-grow: 1;
+    padding: 15px 0;
 }
-header nav ul li a{
-    text-transform: uppercase;
+#register{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+#register a{
     font-weight: bold;
-    margin-right: 20px;
-}
-
-/*STEPS*/
-article i{
-    font-size: 10px;
     color: #0065FC;
 }
-.steps-1{
-    background-color: #F2F2F2;
+#register a:hover{
+    border-bottom: none;
+    margin-right: 4px;
+    margin-top: 3px;
 }
-.steps-3{
-    background-color: #F2F2F2;
+header a{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+}
+header a:hover{
+    border-bottom: 3px solid #0065FC;
+    color: #0065FC;
 }
 
-/*FOOTER*/
-footer{
-    padding: 10px;
+/*RESEARCH*/
+#wrapper h1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+#wrapper p{
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 100%;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+.search input{
+    border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 12px;
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.fa-map-marker-alt{
+    padding: 16px;
+    text-align: center;
     background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+.search button span{
+    display: none;
+}
+.fa-search{
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+}
+.search button{
+    position: relative;
+    right: 6px;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TAB AND LANDSCAPE*/
+@media screen and (min-width:530px) {
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 4px;
+        padding-top: 0px;
+    }
+    header img{
+        padding-top: 40px;
+    }
+    header nav ul{
+        margin-top: 0px;
+    }
+    #register{
+        position: initial;
+        font-weight: 400;
+    }
+    header nav ul li{
+        padding: 0 30px;
+    }
+    #register a:hover{
+        border-bottom: none;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    header a {
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+    header a:hover{
+        border-bottom: none;
+        border-top: 3 solid #0065FC;
+    }
+    /* */
+    #research{
+        margin: 30px 20px;
+    }
+
+    /*SEARCH*/
+    .search button span{
+        display: inline;
+    }
+    .search button i{
+        display: none;
+    }
+    .search button{
+        color: white;
+        padding: 14px 15px;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+    /*HEBERGEMENTS*/
+    #popularity{
+        border-radius: 25px;
+    }
+    #popularity-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #hebergements-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .photo-hebergements{
+    width: 245px;
+    height: 200px;
+    padding: 5px;
+    }
+    .photo-hebergements img{
+        width: 245px;
+    }
+
+    /*ACTIVITY*/
+    #ctivity-container{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .photo-activity{
+        width: 300px;
+        margin-bottom: 5px;
+    }
+
+    /*FOR ACTIVITY PHOTO WHO HAVE TOT GROW*/
+    .auto{
+        height: 440px;
+    }
+    .auto img{
+        height: 440px;
+    }
+    .following{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*FOOTER*/
+
+}
+
+/*PC*/
+@media screen and (min-width:1200px) {
+    header{
+        margin: 4px 50px;
+    }
+    header nav ul li{
+        padding: 0px 60px;
+    }
+
+    /*
 }
