@@ -234,19 +234,118 @@ header a:hover{
     padding-top: 15px;
     padding-bottom: 20px;
 }
+#container-2 h2{
+    margin: 15px 0;
+}
+#hebergements-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-hebergements{
+    width: 335px;
+    height: 198px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 2px solid #F2F2F2;
+    box-shadow: -0.6em 0.6em 0.5em #F2F2F2;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+.img-hebergements{
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px 25px 0 0;
+}
+.img-hebergements img{
+    width: 335px;
+    height: 100px;
+    object-fit: cover;
+}
+.overlay-2{
+    padding: 8px;
+}
+.overlay-2 p{
+    margin: 8px 0;
+}
+.container-2 h3{
+    margin: 20px 15px;
+    font-size: 1.2em;
+}
 
+/*ACTIVITY*/
+#activity{
+    background-color: #fff;
+}
+#activity h2{
+    margin: 25px 0;
+}
+#activity-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-activity{
+    width: 335px;
+    height: 190px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    box-shadow: -0.6em 0.6em 0.5em #F2F2F2;
+}
+.photo-activity h3{
+    margin: 20px 15px;
+}
+.img-activity{
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px 25px 0 0;
+}
+.img-activity img{
+    width: 335px;
+    height: 150px;
+    object-fit: cover;
+}
 
+/*FOOTER*/
+footer{
+    background-color: #F2F2F2;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+footer nav ul{
+    margin: 15px 0;
+    list-style: none;
+}
+footer nav ul li{
+    margin: 8px 0;
+}
+footer nav ul li h3{
+    margin: 12px 0;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
 
-
-
-
-
-
-
-
-
-
-
+/*COLORS FOR STARS*/
+.blue{
+    color: #0065FC;
+}
+.grey{
+    color: #F2F2F2;
+}
 
 /*TAB AND LANDSCAPE*/
 @media screen and (min-width:530px) {
