@@ -460,5 +460,44 @@ footer nav ul li a{
         padding: 0px 60px;
     }
 
-    /*
+    /*RESEARCH*/
+    #wrapper{
+        margin: 30px 50px;
+    }
+    .search-2{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+    .search-2 h2{
+        margin-right: 20px;
+    }
+
+    /*HEBERGEMENTS*/
+    #popularity-container{
+        flex-direction: column;
+    }
+    #container{
+        background-color: #fff;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    #container-2{
+        background-color: #F2F2F2;
+        margin-right: 30px;
+        border-radius: 25px;
+    }
+    #container-2 h3{
+        margin: 25px 50px;
+    }
+
+    /*FOOTER*/
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer nav ul{
+        width: 33%;
+    }
 }
