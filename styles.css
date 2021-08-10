@@ -68,7 +68,7 @@ header a:hover{
 #wrapper p{
     margin-bottom: 10px;
     font-size: 1em;
-    font-weight: 100%;
+    font-weight: 100;
 }
 .search{
     display: flex;
@@ -380,7 +380,7 @@ footer nav ul li a{
     }
     header a:hover{
         border-bottom: none;
-        border-top: 3 solid #0065FC;
+        border-top: #0065FC 3px solid;
     }
     /* */
     #research{
