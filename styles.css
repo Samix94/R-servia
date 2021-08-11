@@ -173,12 +173,13 @@ header a:hover{
 
 /*HEBERGEMENTS*/
 #container{
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #F2F2F2;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 10px;
-    padding-bottom: 20px;
 }
 #populary-container{
     height: 100%;
@@ -208,7 +209,7 @@ header a:hover{
     text-decoration: none;
     color: #000;
     border-radius: 25px;
-    box-shadow: -0.6em 0.6em 0.8em #d0e0ab;
+    box-shadow: -0.6em 0.6em 0.8em #F2F2F2;
 }
 .img-popularity{
     width: 126px;
@@ -235,7 +236,7 @@ header a:hover{
 #container-2{
     background-color: #fff;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 #container-2 h2{
     margin: 15px 0;
@@ -412,7 +413,7 @@ footer ul li a{
         flex-wrap: wrap;
     }
 
-    /*HEBERGEMENTS*/
+    /*CONTAINER-2*/
     #hebergements-container{
         display: flex;
         flex-direction: row;
@@ -439,11 +440,11 @@ footer ul li a{
         margin-bottom: 5px;
     }
 
-    /*FOR ACTIVITY PHOTO WHO HAVE TOT GROW*/
+    /*FOR ACTIVITY PHOTO WHO HAVE TO GROW*/
     .auto{
         height: 440px;
     }
-    .auto img{
+    .resize img{
         height: 440px;
     }
     .following{
@@ -465,7 +466,7 @@ footer ul li a{
         padding: 0px 60px;
     }
 
-    /* */
+    /* MAIN */
     main{
         margin: 30px 50px;
     }
@@ -492,6 +493,8 @@ footer ul li a{
         flex-direction: row-reverse;
         justify-content: space-between;
     }
+
+    /*CONTAINER-2*/
     #container-2{
         background-color: #F2F2F2;
         margin-right: 30px;
@@ -499,6 +502,12 @@ footer ul li a{
     }
     #display{
         margin: 25px 50px;
+    }
+
+    /*ACTIVITY*/
+    #activity-container{
+        display: flex;
+        flex-direction: row;
     }
 
     /*FOOTER*/
