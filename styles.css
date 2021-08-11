@@ -110,8 +110,9 @@ header a:hover{
     border: 1px solid #0065FC;
     border-radius: 15px;
     cursor: pointer;
-}
-#research h2{
+
+}/*SEARCH-2*/
+.search-2 h2{
     margin-top: 20px;
 }
 .search-2{
@@ -144,6 +145,8 @@ header a:hover{
     position: relative;
     right: 25px;
 }
+
+/*SEARCH-3*/
 .search-3{
     margin-top: 15px;
     display: flex;
@@ -272,7 +275,7 @@ header a:hover{
 .overlay-2 p{
     margin: 8px 0;
 }
-.container-2 h3{
+#display{
     margin: 20px 15px;
     font-size: 1.2em;
 }
@@ -324,17 +327,17 @@ footer{
     display: flex;
     flex-direction: column;
 }
-footer nav ul{
+footer ul{
     margin: 15px 0;
     list-style: none;
 }
-footer nav ul li{
+footer ul li{
     margin: 8px 0;
 }
-footer nav ul li h3{
+footer ul li h3{
     margin: 12px 0;
 }
-footer nav ul li a{
+footer ul li a{
     text-decoration: none;
     color: #000;
 }
@@ -383,11 +386,11 @@ footer nav ul li a{
         border-top: #0065FC 3px solid;
     }
     /* */
-    #research{
+    main{
         margin: 30px 20px;
     }
 
-    /*SEARCH*/
+    /*RESEARCH*/
     .search button span{
         display: inline;
     }
@@ -400,7 +403,7 @@ footer nav ul li a{
         border-radius: 0px 15px 15px 0px;
     }
 
-    /*HEBERGEMENTS*/
+    /*CONTAINER*/
     #popularity{
         border-radius: 25px;
     }
@@ -408,6 +411,8 @@ footer nav ul li a{
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    /*HEBERGEMENTS*/
     #hebergements-container{
         display: flex;
         flex-direction: row;
@@ -460,10 +465,12 @@ footer nav ul li a{
         padding: 0px 60px;
     }
 
-    /*RESEARCH*/
-    #wrapper{
+    /* */
+    main{
         margin: 30px 50px;
     }
+
+    /*RESEARCH*/
     .search-2{
         margin-top: 25px;
         display: flex;
@@ -473,11 +480,13 @@ footer nav ul li a{
         margin-right: 20px;
     }
 
-    /*HEBERGEMENTS*/
+    /*CONTAINER*/
     #popularity-container{
         flex-direction: column;
     }
-    #container{
+
+    /*HEBERGEMENTS*/
+    #hebergements{
         background-color: #fff;
         display: flex;
         flex-direction: row-reverse;
@@ -488,7 +497,7 @@ footer nav ul li a{
         margin-right: 30px;
         border-radius: 25px;
     }
-    #container-2 h3{
+    #display{
         margin: 25px 50px;
     }
 
@@ -497,7 +506,7 @@ footer nav ul li a{
         flex-direction: row;
         flex-wrap: wrap;
     }
-    footer nav ul{
+    footer ul{
         width: 33%;
     }
 }
