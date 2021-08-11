@@ -436,7 +436,7 @@ footer ul li a{
         flex-wrap: wrap;
     }
     .photo-activity{
-        width: 300px;
+        width: 273px;
         margin-bottom: 5px;
     }
 
@@ -508,6 +508,10 @@ footer ul li a{
     #activity-container{
         display: flex;
         flex-direction: row;
+    }
+    .photo-activity{
+        margin-right: 20px;
+        margin-bottom: 5px;
     }
 
     /*FOOTER*/
