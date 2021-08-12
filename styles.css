@@ -420,12 +420,12 @@ footer ul li a{
         justify-content: space-around;
     }
     .photo-hebergements{
-        width: 245px;
+        width: 225px;
         height: 200px;
         padding: 5px;
     }
     .photo-hebergements img{
-        width: 245px;
+        width: 225px;
     }
 
     /*ACTIVITY*/
