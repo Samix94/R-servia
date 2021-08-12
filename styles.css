@@ -409,31 +409,29 @@ footer ul li a{
         border-radius: 25px;
     }
     #popularity-container{
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: flex;
+        flex-flow: row wrap;
     }
 
     /*CONTAINER-2*/
     #hebergements-container{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
         justify-content: space-around;
     }
     .photo-hebergements{
-    width: 245px;
-    height: 200px;
-    padding: 5px;
+        width: 245px;
+        height: 200px;
+        padding: 5px;
     }
     .photo-hebergements img{
         width: 245px;
     }
 
     /*ACTIVITY*/
-    #ctivity-container{
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    #activity-container{
+        display: flex;
+        flex-flow: row wrap;
     }
     .photo-activity{
         width: 273px;
@@ -466,7 +464,7 @@ footer ul li a{
         padding: 0px 60px;
     }
 
-    /* MAIN */
+    /*MAIN*/
     main{
         margin: 30px 50px;
     }
@@ -483,6 +481,7 @@ footer ul li a{
 
     /*CONTAINER*/
     #popularity-container{
+        display: flex;
         flex-direction: column;
     }
 
@@ -506,11 +505,11 @@ footer ul li a{
 
     /*ACTIVITY*/
     #activity-container{
-        display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .photo-activity{
-        margin-right: 20px;
+        margin-right: 10px;
         margin-bottom: 5px;
     }
 
